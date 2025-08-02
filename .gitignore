@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Builds
+dist/
+.build/
+.next/
+out/
+
+# Supabase
+.supabase/
+.env
+.env.local
+.env.*.local
+supabase/.temp/
+supabase/migrations/.history/
+
+# VSCode / IDEs
+.vscode/
+.idea/
+*.swp
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backups
+backups/
+
+# Others
+*.sqlite
+*.bak
